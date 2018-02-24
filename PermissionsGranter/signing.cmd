@@ -1,0 +1,2 @@
+:: If you want to sign Permissions Granter you can modify the below lines to sign it. Otherwise this script does nothing.
+signtool sign /n "Michael Perez" /tr http://timestamp.digicert.com /td sha256 /fd sha256 /a PermissionsGranter.exe
