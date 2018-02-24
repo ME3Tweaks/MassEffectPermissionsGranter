@@ -14,3 +14,5 @@ PermissionsGranter.exe \"domain\\username\" [-create-directory directory] [-crea
       Having no parameter before a path will default to granting permissions to a folder.
       You can chain commands together into a list to do all actions in one elevation run.
       ```
+      
+This program does not assign permissions to the Everyone group to limit the scope of permissons granting. Make sure you are passing the correct user to the program - if the user is running in a different context (such as elevated through UAC) you may be unable to determine which user you need to assign permisisons to.
