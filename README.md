@@ -4,7 +4,7 @@ Grants permissions to folders and registry keys for Mass Effect modding activiti
 This program will request elevation when run. You can use the following parameters to perform a limited set of elevated tasks.
 ```
 Usage:
-PermissionsGranter.exe \"domain\\username\" [-create-directory directory] [-create-hklm-reg-key subkey] [FolderToGivePermissionsTo ] ...
+PermissionsGranter.exe "domain\username" [-create-directory directory] [-create-hklm-reg-key subkey] [FolderToGivePermissionsTo ] ...
       -create-directory <directory>
             Create specified directory and give the passed in user permissions to that folder.
       -create-hklm-reg-key <subkeypath>
